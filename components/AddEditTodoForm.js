@@ -26,14 +26,13 @@ const AddEditTodoForm = ({ onSubmit, isEditing }) => {
           placeholder="Add a new Task..."/>
         </div>
         <label> Set Due date for Task.</label>
-         <div>
-          <input
+                  <input
           {...register('dueDate')}
           type="date"
           className="form-control"
           placeholder="Due Date"
            />
-        </div>
+        
       </div>
         <button type="submit" className="btn btn-primary">
           {isEditing ? 'Update' : 'Add'}
