@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: center;
+    /* height: 100vh; Set the height to full viewport height for vertical centering */
+    margin: 0 auto; /* Center the list horizontally on the page */
+    margin-top: 20px; /* Add a top margin to position the list below the button */
+  }
