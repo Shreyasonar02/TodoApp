@@ -6,9 +6,9 @@ form {
   justify-content: center;
   width: 50%; 
   margin: 0 auto;
-  padding: 20px; 
-  border: 1px solid #ccc; 
-  background-color: #f9f9f9; 
+  padding: 20px;
+  border: 9px solid #dbcfcf;
+  background-color: #0f0606;
 }
 
 .input-group {
@@ -16,6 +16,7 @@ form {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  size: 60px;
 }
 
 label {
@@ -24,5 +25,5 @@ label {
 
 .btn {
   background-color: #24d1da;
-  width: 100%;
+  width: 50%;
 }
